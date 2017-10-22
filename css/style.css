@@ -1,0 +1,16 @@
+.informationPlace{
+    margin: 100px 0px 15px 0px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-3.information-text h2, h4 {
+    margin-bottom: 1.5rem;
+}
+
