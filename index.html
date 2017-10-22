@@ -30,28 +30,256 @@
     </nav>
   </header>
 
+
   <section class="informationPlace">
     <div class="container-fluid information">
       <div class="jumbotron">
-          <div class="row">
-            <div class="col-3">
-              <iframe width="400" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJq0M8rqPQ7JQRdYwfNDX-zA0&key=AIzaSyAzlr-LjKTH_oYOUQ33I7k772yEdCsCIaw" allowfullscreen></iframe>
+        <div class="row">
+          <div class="col-3">
+            <iframe width="400" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJq0M8rqPQ7JQRdYwfNDX-zA0&key=AIzaSyAzlr-LjKTH_oYOUQ33I7k772yEdCsCIaw"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col-3 information-text">
+            <h2>Mundo Lanches</h2>
+            <h2>
+              <span class="badge badge-success">Aberto</span>
+              <small class="text-muted"> (Fecha às 21 horas)</small>
+            </h2>
+            <h4>Segunda à Sábado das 17:00 às 21:00</h4>
+            <hr>
+            <h2 class="text-muted">
+              <i class="fa fa-clock-o" aria-hidden="true"></i> 50 minutos
+              <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 10</h2>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-3">
+            <img src="img/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <section class="ordersPlace">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab" id="headingOne">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Lanches Americanos
+                  </a>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão Simples</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$10,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão de Carne Moída</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$11,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão Duplo</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$12,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
-            <div class="col-3 information-text">
-              <h2>Mundo Lanches</h2>
-              <h2><span class="badge badge-success">Aberto</span><small class="text-muted"> (Fecha às 21 horas)</small></h2>
-              <h4>Segunda à Sábado das 17:00 às 21:00</h4>
-              <hr>
-              <h2 class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 50 minutos <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 10</h2>
-            </div>
-            <div class="col-3"></div>
-            <div class="col-3">
-              <img src="img/logo.png" alt="">
+
+            <div class="card">
+              <div class="card-header" role="tab" id="headingTwo">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Lanches de Cachorrão
+                  </a>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <table class="table table-striped">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão Simples</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$10,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão de Carne Moída</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$11,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div class="row">
+                            <div class="col-8">
+                              <h4>Cachorrão Duplo</h4>
+                              <p>1 salsicha, alface, tomate, batata palha, maionese, queijo, presunto, catchup no pão de cachorro
+                                quente.
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="row">
+                                <div class="col col-offset-2 text-center">
+                                  <h4></h4>
+                                  <h4>R$12,00</h4>
+                                </div>
+                                <div class="col col-md-offset-2 text-center">
+                                  <a href="#">
+                                    <i class="fa fa-cart-plus addButton" aria-hidden="true"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <h4 class="card-header">
+              <i class="fa fa-shopping-cart cartIcon" aria-hidden="true"></i> Seu Carrinho
+            </h4>
+            <div class="card-body">
+              <h1 class="card-title">
+                <i class="fa fa-frown-o" aria-hidden="true"></i>
+              </h1>
+              <p class="card-text">Carrinho Vazio.</p>
+            </div>
+            <div class="card-footer text-muted">
+              <img src="img/bandeiras.png" alt="Bandeiras Disponiveis">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
+
 
 
 

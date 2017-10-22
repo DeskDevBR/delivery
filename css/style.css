@@ -14,3 +14,15 @@
     margin-bottom: 1.5rem;
 }
 
+.addButton{
+    font-size: 80px;
+    color: #868E9C;
+}
+
+.addButton:hover{
+    color: #C03A2B;
+}
+
+.cartIcon{
+    font-size: 30px;
+}
